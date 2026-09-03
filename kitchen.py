@@ -59,7 +59,6 @@ class Sum:
             unit
         )
 
-
 class Converter:
     def reduce(self, expression, unit):
         return expression.reduce(unit)
