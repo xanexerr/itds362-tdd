@@ -1,8 +1,7 @@
 from kitchen import Quantity
 
+
+
 def test_multiplication():
-     flour = Quantity(200)
-     flour.times(3)
-     assert flour.amount == 600
-     flour.times(2)
-     assert flour.amount == 400
+     assert Quantity(200).times(3) == Quantity(600)
+     assert Quantity(200).times(2) == Quantity(400)
